@@ -25,7 +25,7 @@
     - Receiver: LoRa/LoRa_Reciever.ino
 - APRS<br/>
     - Transmitter:
-    - Receiver:
+    - Receiver:APRS/APRS_RX_RTL.py
 
 ## 5. Result
 - LoRa is more feasible than APRS for the networking technology in smart farms without considerable investments in towers and/or repeaters.<br/>
