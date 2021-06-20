@@ -16,7 +16,7 @@
 > |60% of Fresnel Zone Radius|16.67 m| 105.61 m|
 
 ## 3. Installation
-- GNU Radio for APRS<br/>
+- GNU Radio for APRS(need USRP b200 USB Software Defined Radio)<br/>
     - https://wiki.gnuradio.org/index.php/InstallingGR
 
 ## 4. Code
