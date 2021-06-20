@@ -1,7 +1,7 @@
 # Compare LoRa and APRS for Smart Farm
 
 ## 1. About
-- This project compares LoRa and APRS to a suitable network for monitoring farmers' orchards 30 miles away. It was conducted with support from IITP, a Korean government agency, and Purdue University in the United States.
+- This project compared LoRa and APRS to a suitable network for monitoring farmers' orchards 30 miles away. It was conducted with support from IITP, a Korean government agency, and Purdue University in the United States.
 
 ## 2. Environment
 - LoRa: Arduino Uno, Arduino LoRa/GPS Shield v1.4, wlaniot 900MHz Antenna, 824-960 MHz 6 dBi 900MHz Omni Antenna
@@ -24,11 +24,11 @@
     - Transmitter: LoRa/LoRa_Transmitt.ino
     - Receiver: LoRa/LoRa_Reciever.ino
 - APRS<br/>
-    - Transmitter:
-    - Receiver:APRS/APRS_RX_RTL.py
+    - Transmitter: APRS/Transmitter/APRS_Transmitter.ino 
+    - Receiver: APRS/APRS_Receiver.py
 
 ## 5. Result
-- LoRa is more feasible than APRS for the networking technology in smart farms without considerable investments in towers and/or repeaters.<br/>
+- Expecting networking distances were calculated by the Friis Transmission formula. However, because APRS was more affected by the Fresnel Zone than LoRa, the actual network communication distance of APRS at a lower height was shorter than expected. **So, LoRa was more feasible than APRS for the networking technology in smart farms** without considerable investments in towers and/or repeaters.<br/>
 > |Network|Distance|Efficiency constrained by Height|
 > |---|---|---|
 > |**LoRa**|**4.2km**|**45.16%**|
