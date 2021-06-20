@@ -29,7 +29,7 @@
 
 ## 5. Result
 - Expecting networking distances were calculated by the Friis Transmission formula. However, because APRS was more affected by the Fresnel Zone than LoRa, the actual network communication distance of APRS at a lower height was shorter than expected. **So, LoRa was more feasible than APRS for the networking technology in smart farms** without considerable investments in towers and/or repeaters.<br/>
-> |Network|Distance|Efficiency constrained by Height|
+> |Network|Coverage Distance|Efficiency constrained by Height|
 > |---|---|---|
 > |**LoRa**|**4.2km**|**45.16%**|
 > |APRS|0.84km|1.44%|
