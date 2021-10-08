@@ -33,3 +33,7 @@
 > |---|---|---|
 > |**LoRa**|**4.2km**|**45.16%**|
 > |APRS|0.84km|1.44%|
+
+## 6. Publication
+- 2020 IEEE International Conference on Omni-layer Intelligent Systems (COINS), Barcelona, Spain (Virtual)
+- https://github.com/dlgur1994/Comparing-LoRa-and-APRS-for-Smart-Farm/blob/main/Publication/Feasibility%20of%20Networking%20Technology%20for%20Smart%20Farm-%20LoRa%20vs%20APRS.pdf
